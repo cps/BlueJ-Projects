@@ -58,6 +58,16 @@ public class Ticketautomat
     {
         bisherGezahlt += betrag;
     }
+   
+    /**
+    *Gib den bisher insgesamt Gezahlten Betrag aus.
+    */
+    public int gibGesamtsumme()
+    {
+        return gesamtsumme;
+    }
+
+   
 
     /**
      * Drucke ein Ticket.
