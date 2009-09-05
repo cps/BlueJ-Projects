@@ -66,7 +66,14 @@ public class Ticketautomat
     {
         return gesamtsumme;
     }
-
+    
+    /**
+     * Leere den Automaten, in dem die Gesamtsumme auf Null gesetzt wird.
+     */
+    public void leereAutomat()
+    {
+        gesamtsumme = 0;
+    }
    
 
     /**
