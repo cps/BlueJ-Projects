@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=ticketpreis
+comment0.target=Ticketautomat(int)
+comment0.text=\nErzeuge\ eine\ Maschine,\ die\ Tickets\ zum\ angegebenen\ Preis\n(in\ Cent)\ ausgibt.\nZu\ beachten\:\ Der\ Preis\ muss\ gr\u00F6\u00DFer\ als\ Null\ sein,\nder\ Automat\ \u00FCberpr\u00FCft\ dies\ jedoch\ nicht.\n\n
+comment1.target=int\ gibPreis()
+comment1.text=\nLiefere\ den\ Preis\ eines\ Tickets\ dieses\ Automaten\ (in\ Cent).\n\n
+comment2.target=int\ gibBisherGezahltenBetrag()
+comment2.text=\nLiefere\ die\ H\u00F6he\ des\ Betrags,\ der\ f\u00FCr\ das\ n\u00E4chste\ Ticket\ bereits\neingeworfen\ wurde.\n\n
+comment3.params=betrag
+comment3.target=void\ geldEinwerfen(int)
+comment3.text=\nNimm\ den\ angegebenen\ Betrag\ (in\ Cent)\ als\ Anzahlung\ f\u00FCr\ das\nn\u00E4chste\ Ticket.\n\n
+comment4.target=void\ ticketDrucken()
+comment4.text=\nDrucke\ ein\ Ticket.\nAktualisiere\ die\ eingenommene\ Gesamtsumme\ und\ setze\ den\ gezahlten\nBetrag\ auf\ Null.\n\n
+numComments=5

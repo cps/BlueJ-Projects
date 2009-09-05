@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Zeichnung()
+comment0.text=\nErzeuge\ ein\ Exemplar\ der\ Klasse\ Zeichnung\n\n
+comment1.target=void\ zeichne()
+comment1.text=\nZeichne\ die\ Zeichnung.\n\n
+comment2.target=void\ inSchwarzWeissAendern()
+comment2.text=\n\u0192ndere\ die\ Darstellung\ in\ schwarz-wei\uFB02.\n\n
+comment3.target=void\ inFarbeAendern()
+comment3.text=\n\u0192ndere\ die\ Darstellung\ in\ Farbe.\n\n
+numComments=4
