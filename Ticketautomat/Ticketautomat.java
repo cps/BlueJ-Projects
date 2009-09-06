@@ -74,7 +74,14 @@ public class Ticketautomat
     {
         gesamtsumme = 0;
     }
-   
+    
+    /**
+     * €ndere den Ticketpreis. Neuen Ticketpreis in Cent eingeben.
+     */
+   public void aenderePreis(int neuerPreis)
+   {
+        preis = neuerPreis; 
+   }
 
     /**
      * Drucke ein Ticket.
