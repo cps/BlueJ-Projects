@@ -84,6 +84,14 @@ public class Ticketautomat
    {
         preis = neuerPreis; 
    }
+   
+   /**
+    * Gib den aktuellen Kassenstand (gesamtsumme) auf dem Bildschirm aus.
+    */
+   public void kassenstandDrucken()
+   {
+        System.out.println("Kassenbestand: " + gesamtsumme + " Cent");
+   }
 
     /**
      * Drucke ein Ticket.
