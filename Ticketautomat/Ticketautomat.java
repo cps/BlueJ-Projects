@@ -25,10 +25,12 @@ public class Ticketautomat
      * (in Cent) ausgibt.
      * Zu beachten: Der Preis muss größer als Null sein,
      * der Automat überprüft dies jedoch nicht.
+     * Edit: Der Preis wird jetzt direkt auf 200 festgelegt.
+     * Er ist Ÿber die entsprechende Methode zu Šndern.
      */
-    public Ticketautomat(int ticketpreis)
+    public Ticketautomat()
     {
-        preis = ticketpreis;
+        preis = 200;
         bisherGezahlt = 0;
         gesamtsumme = 0;
     }

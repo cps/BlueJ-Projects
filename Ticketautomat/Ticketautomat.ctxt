@@ -1,7 +1,6 @@
 #BlueJ class context
-comment0.params=ticketpreis
-comment0.target=Ticketautomat(int)
-comment0.text=\nErzeuge\ eine\ Maschine,\ die\ Tickets\ zum\ angegebenen\ Preis\n(in\ Cent)\ ausgibt.\nZu\ beachten\:\ Der\ Preis\ muss\ gr\u02C6\uFB02er\ als\ Null\ sein,\nder\ Automat\ \u00B8berpr\u00B8ft\ dies\ jedoch\ nicht.\n\n
+comment0.target=Ticketautomat()
+comment0.text=\nErzeuge\ eine\ Maschine,\ die\ Tickets\ zum\ angegebenen\ Preis\n(in\ Cent)\ ausgibt.\nZu\ beachten\:\ Der\ Preis\ muss\ gr\u02C6\uFB02er\ als\ Null\ sein,\nder\ Automat\ \u00B8berpr\u00B8ft\ dies\ jedoch\ nicht.\nEdit\:\ Der\ Preis\ wird\ jetzt\ direkt\ auf\ 200\ festgelegt.\nEr\ ist\ \u00FCber\ die\ entsprechende\ Methode\ zu\ \u00E4ndern.\n\n
 comment1.target=int\ gibPreis()
 comment1.text=\nLiefere\ den\ Preis\ eines\ Tickets\ dieses\ Automaten\ (in\ Cent).\n\n
 comment2.target=int\ gibBisherGezahltenBetrag()
