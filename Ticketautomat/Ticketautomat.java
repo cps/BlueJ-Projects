@@ -58,9 +58,14 @@ public class Ticketautomat
      */
     public void geldEinwerfen(int betrag)
     {
+       if (betrag > 0) {
         bisherGezahlt += betrag;
+        } else {
+        	System.out.println("Bitte nur positive Beträge verwenden!");
+        }
     }
    
+
     /**
     *Gib den bisher insgesamt Gezahlten Betrag aus.
     */
