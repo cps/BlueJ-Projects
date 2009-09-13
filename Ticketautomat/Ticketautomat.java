@@ -101,6 +101,22 @@ public class Ticketautomat
        System.out.println();
    }
 
+   /**
+    * Wenn zu viel gezahlt wurde, wird das Wechselgeld von der Methode zurückgegeben
+	* und der eingeworfene Betrag zurückgesetzt, sonst wird 0 zurückgegeben.
+    */
+   public int wechselgeldAusgabe(){
+     if (bisherGezahlt >= preis) {
+     int wechselgeld;
+     wechselgeld = bisherGezahlt - preis;
+     bisherGezahlt = 0;
+     return wechselgeld; 
+    } else {
+        return 0;
+    	}
+    }
+    
+   
     /**
      * Drucke ein Ticket.
      * Aktualisiere die eingenommene Gesamtsumme und setze den gezahlten
@@ -108,17 +124,30 @@ public class Ticketautomat
      */
     public void ticketDrucken()
     {
-         // Den Ausdruck eines Tickets simulieren.
-        System.out.println("##################");
-        System.out.println("# Die BlueJ-Linie");
-        System.out.println("# Ticket");
-        System.out.println("# " + preis + " Cent.");
-        System.out.println("##################");
-        System.out.println();
+        if (bisherGezahlt >= preis) {
+        	// Den Ausdruck eines Tickets simulieren.
+	        System.out.println("##################");
+	        System.out.println("# Die BlueJ-Linie");
+	        System.out.println("# Ticket");
+	        System.out.println("# " + preis + " Cent.");
+	        System.out.println("##################");
+	        System.out.println();
 
-        // Die Gesamtsumme mit dem eingezahlten Betrag aktualisieren.
-        gesamtsumme += bisherGezahlt;
-        // Die bisherige Bezahlung zur�cksetzen.
-        bisherGezahlt = 0;
-    }
+	        // Die Gesamtsumme mit dem eingezahlten Betrag aktualisieren.
+	        gesamtsumme += bisherGezahlt;
+       
+	        // Wechsele Geld
+	        int wechselgeld;
+	        wechselgeld = wechselgeldAusgabe();
+	        System.out.println("Wechselgeld:" + wechselgeld + " Cent");
+	        System.out.println();
+	        // Die bisherige Bezahlung zurücksetzen.
+	        bisherGezahlt = 0;
+		} else {
+       	 	int fehlt;
+	        fehlt =  preis - bisherGezahlt;
+	     	System.out.println("Es fehlen noch " + fehlt + " Cent!");
+	     	System.out.println();
+    		}
+    	}
 }
