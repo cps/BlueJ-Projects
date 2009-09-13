@@ -95,7 +95,10 @@ public class Ticketautomat
     */
    public void kassenstandDrucken()
    {
-        System.out.println("Kassenbestand: " + gesamtsumme + " Cent");
+       System.out.println("##################"); 
+       System.out.println("Kassenbestand: " + gesamtsumme + " Cent");
+       System.out.println("##################");
+       System.out.println();
    }
 
     /**
