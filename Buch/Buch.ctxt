@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=class\ Buch
+comment0.text=\nEine\ Klasse,\ deren\ Exemplare\ Informationen\ \u00FCber\ ein\ Buch\ halten.\nDies\ k\u00F6nnte\ Teil\ einer\ gr\u00F6\u00DFeren\ Anwendung\ sein,\ einer\nBibliothekssoftware\ beispielsweise.\n\n@author\ (Ihren\ Namen\ hier\ eintragen.)\n@version\ (das\ heutige\ Datum\ eintragen.)\n\n
+comment1.target=autor
+comment2.params=buchautor\ buchtitel
+comment2.target=Buch(String,String)
+comment2.text=\nSetze\ den\ Autor\ und\ den\ Titel,\ wenn\ ein\ Exemplar\ erzeugt\ wird.\n\n
+comment3.target=titel
+numComments=4
