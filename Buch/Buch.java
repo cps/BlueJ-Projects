@@ -33,4 +33,24 @@ class Buch {
 		return titel;
 	}
 
+	/**
+	 * Der Titel des Buches wird auf der Konsole ausgegeben.
+	 */
+	public void schreibTitel() {
+		System.out.println("##############");
+		System.out.println("Titel: " + titel);
+		System.out.println("##############");
+		System.out.println();
+	}
+
+	/**
+	 * Der Autor des Buches wird auf der Konsole ausgegeben.
+	 */
+	public void schreibAutorl() {
+		System.out.println("##############");
+		System.out.println("Autor: " + autor);
+		System.out.println("##############");
+		System.out.println();
+	}
+
 }
