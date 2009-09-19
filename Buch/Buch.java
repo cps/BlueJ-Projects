@@ -10,13 +10,15 @@ class Buch {
 	// Exemplarvariablen
 	private String autor;
 	private String titel;
+	private int seiten;
 
 	/**
 	 * Setze den Autor und den Titel, wenn ein Exemplar erzeugt wird.
 	 */
-	public Buch(String buchautor, String buchtitel) {
+	public Buch(String buchautor, String buchtitel, int seitenzahl) {
 		autor = buchautor;
 		titel = buchtitel;
+		seiten = seitenzahl;
 	}
 
 	/**
