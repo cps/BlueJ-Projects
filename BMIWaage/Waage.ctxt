@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=neuesGewicht\ neueGroesse
+comment0.target=Waage(int,\ int)
+comment0.text=\nZwei\ Konstruktoren\:\ 1.\ Mit\ Eingabe\ beider\ Werte,\n2.\ Ohne\ Eingabe\ von\ Werten.\n\n
+comment1.target=Waage()
+comment2.target=int\ gibGewicht()
+comment2.text=\nGibt\ Gewicht\ zur\u00FCck.\n\n
+comment3.target=int\ gibGroesse()
+comment3.text=\nGibt\ Groesse\ zur\u00FCck.\n\n
+comment4.params=neuesGewicht
+comment4.target=void\ setzeGewicht(int)
+comment4.text=\nVer\u00E4ndert\ Gewicht\n\n
+comment5.params=neueGroesse
+comment5.target=void\ setzeGroesse(int)
+comment5.text=\nVer\u00E4ndert\ Gr\u00F6\u00DFe.\n\n
+numComments=6
