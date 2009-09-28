@@ -79,6 +79,15 @@ public class Waage {
 		System.out.println("Größe: " + groesse + "cm.");
 		System.out.println("Gewicht: " + gewicht + "kg.");
 		System.out.println("BMI: " + bmi);
+		if (bmi < 18.5) {
+			System.out.println("Achtung, wahrscheinlich bist du untergewichtig!");
+		}
+		else if (bmi >= 18.5 && bmi <= 25) {
+				System.out.println("Dein Gewicht ist genau im richtigen Bereich. Sehr gut!");
+			}
+			else if (bmi > 25) {
+					System.out.println("Achtung, wahrscheinlich bist du übergewichtig!");
+				}
 		System.out.println("##############");
 		System.out.println("");
 	}
