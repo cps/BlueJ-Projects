@@ -73,4 +73,25 @@ public class Heizung {
 		return temperatur;
 	}
 
+	/**
+	 * Drucke falsch gerundete Temperatur auf der Konsole.
+	 */
+	public void druckeTemperatur() {
+		System.out.println("Die aktuelle Temperatur beträgt: "
+				+ (int) temperatur + " Grad Celsius.");
+	}
+
+	/**
+	 * Gibt die Temperatur in einer improvisiert grafischen Anzeige in der Konsole aus.
+	 */
+	public void druckeThermometer() {
+		System.out.println("###############");
+		druckeTemperatur();
+		for (int z = 1; z <= (int) gibTemperatur(); z++) {
+			System.out.print("0");
+		}
+		System.out.println("\n0||||5|||10||||15|||20|||25|||30|||35|||40|||45");
+		System.out.println("###############");
+	}
+
 }
