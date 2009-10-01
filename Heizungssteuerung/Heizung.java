@@ -66,4 +66,11 @@ public class Heizung {
 		}
 	}
 
+	/**
+	 * Gibt die aktuelle Temperatur zurück.
+	 */
+	public double gibTemperatur() {
+		return temperatur;
+	}
+
 }
