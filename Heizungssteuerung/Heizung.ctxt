@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Heizung()
+comment0.text=\nKonstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Heizung\n\n
+comment1.target=void\ waermer()
+comment1.text=\nMacht\ alles\ w\u00E4rmer\ (siehe\ Klimawandel).\n\n
+comment2.target=void\ kuehler()
+comment2.text=\nMacht\ alles\ k\u00FChler\ (siehe\ Eiszwerg).\ \n\n
+comment3.target=void\ schnellWaermer()
+comment3.text=\nMacht\ alles\ total\ warm.\n\n
+comment4.params=y
+comment4.target=int\ beispielMethode(int)
+comment4.text=\nMacht\ alles\ total\ kalt\ (macht\ im\ K\u00FChlschrank\ das\ Licht\ aus,\ Freund\ vom\ Eiszwerg).\n\n
+numComments=5
