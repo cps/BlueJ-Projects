@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Zahlentripel()
+comment0.text=\nKonstruktor,\ der\ alle\ Zahlen\ auf\ 0\ setzt.\n\n
+comment1.params=x1\ x2\ x3
+comment1.target=Zahlentripel(int,\ int,\ int)
+comment1.text=\nKonstruktor,\ der\ nach\ drei\ Zahlen\ fragt\ und\ den\ Rest\ alleine\ erledigt.\n\n
+comment2.params=x1\ x2\ x3
+comment2.target=void\ setzeZahlen(int,\ int,\ int)
+comment2.text=\nZahlen\ eingeben\ und\ auf\ die\ jeweiligen\ Felder\ setzen.\n\n@param\ \ x\ \ \ Drei\ Zahlen,\ jeweils\ int\n\n
+comment3.target=void\ zahlenAusgeben()
+comment3.text=\nAn\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n@param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n@return\ \ \ \ \ the\ sum\ of\ x\ and\ y\n\n
+comment4.target=void\ sortieren()
+comment4.text=\nDie\ drei\ Zahlen\ werden\ durch\ drei\ if-Schleifen\ sortiert.\n\n
+numComments=5
