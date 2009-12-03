@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Punkt()
+comment0.text=\nFeste\ Anfangswerte\ f\u00FCr\ den\ Punkt.\n\n
+comment1.params=nX\ nY
+comment1.target=Punkt(double,\ double)
+comment1.text=\nWerte\ f\u00FCr\ die\ Koordinaten\ des\ Punktes\ k\u00F6nnen\ angegeben\ werden.\n\n
+comment2.target=double\ getX()
+comment2.text=\nGibt\ x\ zur\u00FCck.\n\n
+comment3.target=double\ getY()
+comment3.text=\nGibt\ y\ zur\u00FCck.\n\n
+comment4.params=nX
+comment4.target=void\ setX(double)
+comment4.text=\nNeuen\ x-Wert\ setzen.\n\n
+comment5.params=nY
+comment5.target=void\ setY(double)
+comment5.text=\nNeuen\ y-Wert\ setzen.\ \n\n
+comment6.params=p
+comment6.target=double\ abstandPunkt(Punkt)
+comment6.text=\nGibt\ den\ Abstand\ zu\ einem\ anderen\ Punkt\ als\ double\ zur\u00FCck.\n\n
+comment7.params=g
+comment7.target=double\ abstandGerade(Gerade)
+comment7.text=\nBerechnet\ den\ Abstand\ zu\ einer\ als\ Parameter\ mitgegebenen\ Gerade.\nHierzu\ wird\ die\ entsprechnde\ Methode\ der\ Geraden-Klasse\ verwendet.\n\n
+numComments=8
