@@ -1,7 +1,7 @@
 #Doc Ordner
 **/doc
 *.class
-*.pkh
+*.pkg
 *.ctxt
 *.bluej
 .DS_Store
