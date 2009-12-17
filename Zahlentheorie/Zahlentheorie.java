@@ -2,7 +2,7 @@
  * Berechnungen zur Zahlentheorie
  * 
  * @author Christoph Schüler
- * @version 0.1a1
+ * @version 0.1a2
  */
 public class Zahlentheorie {
 	// Keine Datenfelder, weil statische Klasse.
@@ -20,4 +20,21 @@ public class Zahlentheorie {
 			return false;
 		}
 	}
+
+	/**
+	 * Statische Methode, die durch weitere Methodenaufrufe prüft, ob m eine 
+	 * Primzahl ist und das Ergebniss als boolean zurückgibt.
+	 */
+	public static boolean istPrimzhal(int m) {
+		int moeglTeiler = 2;
+		while (moeglTeiler < m) {
+			if (Zahlentheorie.teilt(moeglTeiler, m)) {
+				return false;
+			}
+			moeglTeiler++;
+		}
+
+		return true;
+	}
+
 }
