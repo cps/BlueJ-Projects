@@ -25,7 +25,7 @@ public class Zahlentheorie {
 	 * Statische Methode, die durch weitere Methodenaufrufe prüft, ob m eine 
 	 * Primzahl ist und das Ergebniss als boolean zurückgibt.
 	 */
-	public static boolean istPrimzhal(int m) {
+	public static boolean istPrimzahl(int m) {
 		int moeglTeiler = 2;
 		while (moeglTeiler < m) {
 			if (Zahlentheorie.teilt(moeglTeiler, m)) {
