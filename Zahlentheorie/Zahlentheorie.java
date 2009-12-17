@@ -2,7 +2,7 @@
  * Berechnungen zur Zahlentheorie
  * 
  * @author Christoph Schüler
- * @version 0.1a2
+ * @version 0.1a3
  */
 public class Zahlentheorie {
 	// Keine Datenfelder, weil statische Klasse.
@@ -35,6 +35,20 @@ public class Zahlentheorie {
 		}
 
 		return true;
+	}
+
+	/**
+	 * Methode, die durch einen besprochenen Algorithmus das ggT von zwei
+	 * mitgegebenen Zahlen bestimmt.
+	 */
+	public static int ggT(int m, int n) {
+		int aktuellerRest = (n % m);
+		while (aktuellerRest != 0) {
+			n = m;
+			m = aktuellerRest;
+			aktuellerRest = (n % m);
+		}
+		return m;
 	}
 
 }
