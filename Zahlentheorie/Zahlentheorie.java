@@ -77,4 +77,20 @@ public class Zahlentheorie {
 		return m;
 	}
 
+	/**
+	 * Methode, die durch den dritten Algorithmus (vom Blatt) das ggT von zwei
+	 * mitgegebenen Zahlen bestimmt.
+	 */
+	public static int berechneGgT3(int a, int b) {
+		while (a != b) {
+			if (a < b) {
+				b = b - a;
+			}
+			else {
+				a = a - b;
+			}
+		}
+		return a;
+	}
+
 }
