@@ -41,7 +41,7 @@ public class Zahlentheorie {
 	 * Methode, die durch einen besprochenen Algorithmus das ggT von zwei
 	 * mitgegebenen Zahlen bestimmt.
 	 */
-	public static int ggT(int m, int n) {
+	public static int berechneGgT2(int m, int n) {
 		int aktuellerRest = (n % m);
 		while (aktuellerRest != 0) {
 			n = m;
