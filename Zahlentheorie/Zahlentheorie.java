@@ -38,7 +38,33 @@ public class Zahlentheorie {
 	}
 
 	/**
-	 * Methode, die durch einen besprochenen Algorithmus das ggT von zwei
+	 * Methode, die durch den ersten besprochenen Algorithmus das ggT von zwei
+	 * mitgegebenen Zahlen bestimmt.
+	 */
+	public static int berechneGgT1(int m, int n) {
+		int laufzahl;
+		boolean gefunden;
+		if (m < n) {
+			laufzahl = m;
+		}
+		else {
+			laufzahl = n;
+		}
+		gefunden = false;
+		while (!gefunden) {
+			if (Zahlentheorie.teilt(laufzahl, m)
+					&& Zahlentheorie.teilt(laufzahl, n)) {
+				gefunden = true;
+			}
+			else {
+				laufzahl--;
+			}
+		}
+		return laufzahl;
+	}
+
+	/**
+	 * Methode, die durch den zweiten besprochenen Algorithmus das ggT von zwei
 	 * mitgegebenen Zahlen bestimmt.
 	 */
 	public static int berechneGgT2(int m, int n) {
