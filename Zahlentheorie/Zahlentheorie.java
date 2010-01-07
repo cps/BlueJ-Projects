@@ -93,4 +93,18 @@ public class Zahlentheorie {
 		return a;
 	}
 
+	/**
+	 * Gibt alle Teiler einer Zahl auf der Konsole aus. (Einzelstrings)
+	 */
+	public static void teiler(int m) {
+		int laufzahl = m;
+		System.out.println("Folgende Zahlen teilen " + m + ":");
+		while (laufzahl > 0) {
+			if (Zahlentheorie.teilt(laufzahl, m)) {
+				System.out.println(laufzahl);
+			}
+			laufzahl--;
+		}
+	}
+
 }
