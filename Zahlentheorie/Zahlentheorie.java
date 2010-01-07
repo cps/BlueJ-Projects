@@ -107,4 +107,24 @@ public class Zahlentheorie {
 		}
 	}
 
+	/**
+	 * Die Teiler einer Zahl werden als ein String auf der Konsole ausgegeben.
+	 */
+	public static void teilerEinString(int m) {
+		int laufzahl = m;
+		String ausgabe = "Folgende Zahlen teilen " + m + ": ";
+		while (laufzahl > 0) {
+			if (Zahlentheorie.teilt(laufzahl, m)) {
+				if (laufzahl != 1) {
+					ausgabe += laufzahl + ", ";
+				}
+				else {
+					ausgabe += laufzahl;
+				}
+			}
+			laufzahl--;
+		}
+		System.out.println(ausgabe);
+	}
+
 }
