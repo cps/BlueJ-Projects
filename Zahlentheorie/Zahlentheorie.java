@@ -127,4 +127,23 @@ public class Zahlentheorie {
 		System.out.println(ausgabe);
 	}
 
+	/**
+	 * Gibt die Primfaktorzerlegung einer Zahl auf der Konsole aus.
+	 */
+	public static void primfaktorzerlegung(int m) {
+		String ausgabe = "Primfaktorzerlegung von " + m + ": ";
+		if (m == 1) {
+			ausgabe += "1";
+		}
+		int k = 2;
+		while (m != 1) {
+			while (m % k == 0) {
+				m = m / k;
+				ausgabe += k + "*";
+			}
+			k++;
+		}
+		ausgabe = ausgabe.substring(1, ausgabe.length() - 1);
+		System.out.println(ausgabe);
+	}
 }
