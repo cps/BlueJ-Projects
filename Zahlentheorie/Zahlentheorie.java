@@ -1,8 +1,10 @@
 /**
  * Berechnungen zur Zahlentheorie
  * 
- * @author Christoph Schüler
- * @version 0.1a3
+ * Teilweise zusammen mit Philipp bearbeitet.
+ * 
+ * @author Christoph Schueler
+ * @version final
  */
 public class Zahlentheorie {
 	// Keine Datenfelder, weil statische Klasse.
@@ -10,7 +12,7 @@ public class Zahlentheorie {
 	// Kein Konstruktor, weil statische Klasse.
 
 	/**
-	 * Methode, die prüft, ob m n teilt. 
+	 * Methode, die prueft, ob m n teilt. 
 	 */
 	public static boolean teilt(int m, int n) {
 		if (n % m == 0) {
@@ -22,8 +24,8 @@ public class Zahlentheorie {
 	}
 
 	/**
-	 * Statische Methode, die durch weitere Methodenaufrufe prüft, ob m eine 
-	 * Primzahl ist und das Ergebniss als boolean zurückgibt.
+	 * Statische Methode, die durch weitere Methodenaufrufe prueft, ob m eine 
+	 * Primzahl ist und das Ergebniss als boolean zurueckgibt.
 	 */
 	public static boolean istPrimzahl(int m) {
 		int moeglTeiler = 2;
@@ -146,13 +148,12 @@ public class Zahlentheorie {
 		ausgabe = ausgabe.substring(1, ausgabe.length() - 1);
 		System.out.println(ausgabe);
 	}
-	
+
 	/**
-	 * Gibt das kgV zweier Zahlen zurück.
+	 * Gibt das kgV zweier Zahlen zurueck.
 	 */
-	public static int berechneKgv(int m,int n)
-    {
-       int kgv = m*n / Zahlentheorie.berechneGgT2(m, n);
-       return kgv;
-    }
+	public static int berechneKgv(int m, int n) {
+		int kgv = m * n / Zahlentheorie.berechneGgT2(m, n);
+		return kgv;
+	}
 }
