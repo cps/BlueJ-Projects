@@ -146,4 +146,13 @@ public class Zahlentheorie {
 		ausgabe = ausgabe.substring(1, ausgabe.length() - 1);
 		System.out.println(ausgabe);
 	}
+	
+	/**
+	 * Gibt das kgV zweier Zahlen zurück.
+	 */
+	public static int berechneKgv(int m,int n)
+    {
+       int kgv = m*n / Zahlentheorie.berechneGgT2(m, n);
+       return kgv;
+    }
 }
